@@ -21,7 +21,3 @@ $(document).ready(function(){
         } // End if
       });
     });
-
-// baguetteBox.run('.cards-gallery', { animation: 'slideIn'});
-
-
