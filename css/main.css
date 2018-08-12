@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,600);
+
+
 html,
 body,
 header,
@@ -5,12 +8,52 @@ header,
     height: 100vh;
 }
 
+#crd{
+  height:400px;
+}
+
+#tech{
+  display:flex;
+}
+
+div.col s4 m2{
+  vertical-align: top;
+    display: inline-block;
+    text-align: center;
+}
+
+.caption {
+  display: block;
+}
+h4.portlink {
+  font-family: "Raleway", sans-serif;
+  font-weight: bolder;
+  font-size: 21px;
+  color: #1b569e;
+  }
+
+h5.portlink {
+  font-family: "Raleway", sans-serif;
+  font-weight: bolder;
+  font-size: 18px;
+  color: #1b569e;
+  }
+
+a.repo{
+  position:absolute;
+  bottom:0;
+}
+
 html,
 body,
 header,
 .intro-2 {
-  height: 800px;
+  height: 1200px;
 }
+
+a:hover {
+  text-decoration:underline;
+  }
 
 .top-nav-collapse {
   background-color: #323d4e !important; 
@@ -21,7 +64,13 @@ header,
 @media (max-width: 768px) {
 .navbar:not(.top-nav-collapse) {
     background: #323d4e !important;
-    } 
+    }
+html,
+body,
+header,
+.intro-2 {
+  height: 1400px;
+}
 }
 .gallery-block{
 	padding-bottom: 60px;
