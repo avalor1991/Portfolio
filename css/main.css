@@ -25,12 +25,12 @@ div.col s4 m2{
 .caption {
   display: block;
 }
-h4.portlink {
+/* h4.portlink {
   font-family: "Raleway", sans-serif;
   font-weight: bolder;
   font-size: 21px;
   color: #1b569e;
-  }
+  } */
 
 h5.portlink {
   font-family: "Raleway", sans-serif;
@@ -48,12 +48,12 @@ html,
 body,
 header,
 .intro-2 {
-  height: 1200px;
+  height: 1500px;
 }
 
-a:hover {
+/* h6.a:hover {
   text-decoration:underline;
-  }
+  } */
 
 .top-nav-collapse {
   background-color: #323d4e !important; 
@@ -69,7 +69,7 @@ html,
 body,
 header,
 .intro-2 {
-  height: 1400px;
+  height: 2400px;
 }
 }
 .gallery-block{
@@ -110,11 +110,15 @@ header,
 }
 
 .gallery-block.cards-gallery a {
-  color: #212529; 
+  font-family: "Raleway", sans-serif;
+  font-weight: bolder;
+  font-size: 21px;
+  color: #1b569e;
+  
 }
 
 .gallery-block.cards-gallery a:hover {
-  text-decoration: none; 
+  text-decoration: underline; 
 }
 
 .gallery-block.cards-gallery .card {
