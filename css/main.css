@@ -25,12 +25,6 @@ div.col s4 m2{
 .caption {
   display: block;
 }
-/* h4.portlink {
-  font-family: "Raleway", sans-serif;
-  font-weight: bolder;
-  font-size: 21px;
-  color: #1b569e;
-  } */
 
 h5.portlink {
   font-family: "Raleway", sans-serif;
@@ -51,9 +45,30 @@ header,
   height: 1500px;
 }
 
-/* h6.a:hover {
-  text-decoration:underline;
-  } */
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #f8f9dd;
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  }
+a.footer:link {
+  color: #f8f9dd;
+  /* textdecoration: none; */
+  font-size: 100%;
+} 
+a.footer:visited {
+  color: #f8f9dd;
+  text-decoration: none;
+  font-size: 100%;
+}
+a.footer:hover {
+  color: #867852;
+  text-decoration: none;
+  font-size: 100%;
+}
+
 
 .top-nav-collapse {
   background-color: #323d4e !important; 
